@@ -1,7 +1,6 @@
 package practica6;
 
-public class Moto {
-	String matricula;
+public class Moto extends Vehiculo {
 	int cilindrada;
 
 	public Moto() {
@@ -14,16 +13,8 @@ public class Moto {
 		cilindrada = c;
 	}
 
-	public String getMatricula() {
-		return matricula;
-	}
-
 	public int getCilindrada() {
 		return cilindrada;
-	}
-
-	public void setMatricula(String m) {
-		matricula = m;
 	}
 
 	public void setCilindrada(int c) {

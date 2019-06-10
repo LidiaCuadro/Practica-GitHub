@@ -43,18 +43,30 @@ public class Coche extends Vehiculo {
 	}
 	
 	private String obtenerInfoHibrido(String modelo2, String fabricante2) {
-		// TODO Auto-generated method stub
-		return null;
+		String resultado = "";
+		String textoInicio = "es un";
+		String textoFin = "y no necesita combustible.";
+		resultado += textoInicio + " " + fabricante2 + " ";
+		resultado += modelo2 + " " + textoFin;
+		return resultado;
 	}
 
 	private String obtenerInfoDiesel(String modelo2, String fabricante2) {
-		// TODO Auto-generated method stub
-		return null;
+		String resultado = "";
+		String textoInicio = "es un";
+		String textoFin = "y gasta 1,052 euros por litro.";
+		resultado += textoInicio + " " + fabricante2 + " ";
+		resultado += modelo2 + " " + textoFin;
+		return resultado;
 	}
 
 	private String obtenerInfoGasolina(String modelo2, String fabricante2) {
-		// TODO Auto-generated method stub
-		return null;
+		String resultado = "";
+		String textoInicio = "es un";
+		String textoFin = "y gasta 1,337 euros por litro.";
+		resultado += textoInicio + " " + fabricante2 + " ";
+		resultado += modelo2 + " " + textoFin;
+		return resultado;
 	}
 
 	public String getCombustible() {
@@ -80,4 +92,5 @@ public class Coche extends Vehiculo {
 	public void setFabricante(String fabricante) {
 		this.fabricante = fabricante;
 	}
+
 }
